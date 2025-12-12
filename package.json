@@ -1,0 +1,50 @@
+{
+  "name": "autobase-discovery-cli",
+  "version": "0.0.0",
+  "description": "CLI for autobase-discovery",
+  "main": "bin.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm run format:check"
+  },
+  "bin": {
+    "autodiscovery": "bin.js",
+    "autodiscovery-client": "client-bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/autobase-discovery-cli.git"
+  },
+  "files": [
+    "bin.js"
+  ],
+  "keywords": [
+    "autobase",
+    "discovery",
+    "CLI"
+  ],
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/autobase-discovery-cli/issues"
+  },
+  "homepage": "https://github.com/holepunchto/autobase-discovery-cli#readme",
+  "dependencies": {
+    "autobase-discovery": "^1.3.2",
+    "corestore": "^7.7.0",
+    "graceful-goodbye": "^1.3.3",
+    "hyper-instrument": "^3.0.1",
+    "hypercore-id-encoding": "^1.3.0",
+    "hyperdht": "^6.27.1",
+    "hyperswarm": "^4.16.0",
+    "paparam": "^1.9.1",
+    "pino": "^10.1.0",
+    "protomux-rpc-middleware": "^0.1.0",
+    "protomux-rpc-router": "^0.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}

@@ -17,7 +17,8 @@
     "url": "git+https://github.com/holepunchto/autobase-discovery-cli.git"
   },
   "files": [
-    "bin.js"
+    "bin.js",
+    "client-bin.js"
   ],
   "keywords": [
     "autobase",

@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/holepunchto/autobase-discovery-cli#readme",
   "dependencies": {
-    "autobase-discovery": "^1.3.2",
+    "autobase-discovery": "^2.0.0",
     "corestore": "^7.7.0",
     "graceful-goodbye": "^1.3.3",
     "hyper-instrument": "^3.0.1",

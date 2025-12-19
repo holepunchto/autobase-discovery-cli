@@ -41,8 +41,8 @@
     "hyperswarm": "^4.16.0",
     "paparam": "^1.9.1",
     "pino": "^10.1.0",
-    "protomux-rpc-middleware": "^0.1.0",
-    "protomux-rpc-router": "^0.1.0"
+    "protomux-rpc-middleware": "^1.0.0",
+    "protomux-rpc-router": "^1.0.0"
   },
   "devDependencies": {
     "prettier": "^3.7.4",
